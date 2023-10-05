@@ -1,0 +1,136 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+ img{
+ 	width: 100%;
+ }
+ /* Upper Naviagtion Bar goes here */
+
+ nav ul{
+
+ 	display: flex;
+ 	list-style: none;
+
+ 	width: 1174;
+ 	margin: 50px;
+ 	font-family: Roboto, sans-serif;
+ }
+
+ nav ul li{
+ 	padding: 12px;
+ }
+ nav ul li a{
+ 	text-decoration: none;
+ 	color: black;
+
+ }
+
+ nav ul li.Address{
+ 	background-color: rgba(252,0,74);
+ 	margin-left: 50px;
+ 	margin-right: 50px;
+ 	border-radius: 15px;
+ 	
+
+ }
+
+ nav ul li.Address a{
+ 	color: white;
+ }
+
+nav ul li.Shopping_Bag{
+	background-color: rgba(252,0,74);
+ 	margin-left: 50px;
+ 	margin-right: 50px;
+ 	border-radius: 15px;
+
+}
+nav ul li.Shopping_Bag a{
+	color: white;
+}
+
+nav ul li.Shopping_Bag span{
+	border-left: 1px solid white;
+	padding-left: 5px;
+}
+
+nav ul li.icon{
+
+	background-color:rgba(245,245,245);
+	border-radius: 10px;
+}
+/* Upper Naviagtion Bar Ends here */
+
+.Image {
+	margin: 50px;
+	padding: 50px;
+	
+	
+
+}
+.Picture{
+
+	border-radius: 30px;
+}
+
+/* Menu Naviagtion Bar goes here */
+
+div.Menu-nav-bar ul li{
+
+	background-color: rgba(59,130,246,0.5);
+	margin: 10px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+	/* Sets Section Goes Here */
+
+	 .container{
+
+		width: 1174px;
+		margin: auto;
+		padding: 30px;
+
+	}
+
+
+	.container .parent{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.container .parent .child{
+		width: calc(100%/4.5);
+		margin: 15px;
+		
+
+		
+	}
+
+	.head{
+		font-size: 40px;
+		font-weight: normal;
+	}
+
+	Section img {
+		background-color: white;
+
+	}
+
+	Section a{
+		text-decoration: none;
+		color: red;
+		font-size: 20px;
+	}
+
+	/* Sets Section Ends here */
+	/* Lesters Section Goes here */
+
+
+
+
+
+
+
